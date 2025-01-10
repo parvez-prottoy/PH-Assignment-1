@@ -42,3 +42,41 @@ nav button {
   cursor: pointer;
 }
 /* ---------------------- header sections end ---------------------- */
+/* ---------------------- hero section start ---------------------- */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  background: rgb(198, 228, 214);
+  border-radius: 24px;
+}
+.hero-left {
+  width: 622px;
+}
+.hero-left h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+}
+.hero-left h1 {
+  color: var(--textPrimary);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+.hero-left button {
+  margin-top: 24px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+/* ---------------------- hero section end ---------------------- */
