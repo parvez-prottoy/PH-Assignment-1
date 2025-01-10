@@ -125,4 +125,59 @@ nav button {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
 }
+.visionOfFuture-container {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+.visionOfFuture-card {
+  border-radius: 16px;
+  width: 410.67px;
+  height: 325px;
+  padding: 32px;
+}
+.visionOfFuture-card-1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.visionOfFuture-card-2 {
+  background: rgb(198, 228, 214);
+}
+.visionOfFuture-card-3 {
+  background: rgb(247, 235, 207);
+}
+.visionOfFuture-card img {
+  width: 64px;
+  height: 64px;
+}
+.visionOfFuture-content {
+  margin-top: 24px;
+}
+.visionOfFuture-content h3 {
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.visionOfFuture-content > p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  height: 72px;
+}
+.visionOfFuture-content button {
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  font-size: 16px;
+  margin-top: 24px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.visionOfFuture-card-1 button {
+  background: rgb(84, 144, 245);
+}
+.visionOfFuture-card-2 button {
+  background: rgb(9, 161, 92);
+}
+.visionOfFuture-card-3 button {
+  background: rgb(255, 194, 57);
+}
 /* ---------------------- visionOfFuture section end ---------------------- */
