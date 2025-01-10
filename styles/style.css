@@ -1,0 +1,44 @@
+/* ---------------------- default styles start ---------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  /* colors */
+  --bgPrimary: "#F5F5F5";
+  --textPrimary: "rgb(14, 14, 14)";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: var(--bgPrimary);
+}
+/* ---------------------- default styles end ---------------------- */
+/* ---------------------- reuseable class start ---------------------- */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* ---------------------- reuseable class end ---------------------- */
+/* ---------------------- header sections start ---------------------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+nav h4 {
+  font-size: 32px;
+  font-weight: 700;
+}
+nav button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  color: rgb(0, 106, 80);
+  background: transparent;
+  cursor: pointer;
+}
+/* ---------------------- header sections end ---------------------- */
