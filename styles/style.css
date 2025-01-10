@@ -20,6 +20,14 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
+.section-pt {
+  padding-top: 80px;
+}
+.section-header {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+}
 /* ---------------------- reuseable class end ---------------------- */
 /* ---------------------- header sections start ---------------------- */
 nav {
@@ -80,3 +88,41 @@ nav button {
   cursor: pointer;
 }
 /* ---------------------- hero section end ---------------------- */
+/* ---------------------- pillars sections start ---------------------- */
+.pillars-container {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+}
+.pillar {
+  width: 302px;
+  height: 244px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 24px;
+}
+.pillar img {
+  width: 64px;
+  height: 64px;
+}
+.pillar-content {
+  margin-top: 24px;
+}
+.pillar-content h3 {
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.pillar-content p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+/* ---------------------- pillars sections end ---------------------- */
+/* ---------------------- visionOfFuture section start ---------------------- */
+.visionOfFuture > p {
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+}
+/* ---------------------- visionOfFuture section end ---------------------- */
