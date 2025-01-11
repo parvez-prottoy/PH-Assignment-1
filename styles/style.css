@@ -12,7 +12,7 @@
 }
 body {
   font-family: "Fira Sans", sans-serif;
-  background: var(--bgPrimary);
+  background: rgb(245, 245, 245);
 }
 /* ---------------------- default styles end ---------------------- */
 /* ---------------------- reuseable class start ---------------------- */
@@ -27,6 +27,12 @@ body {
   color: rgb(14, 14, 14);
   font-size: 40px;
   font-weight: 700;
+}
+.visionOfFuture > p,
+.recentNewses > p {
+  margin-top: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
 }
 /* ---------------------- reuseable class end ---------------------- */
 /* ---------------------- header sections start ---------------------- */
@@ -120,11 +126,7 @@ nav button {
 }
 /* ---------------------- pillars sections end ---------------------- */
 /* ---------------------- visionOfFuture section start ---------------------- */
-.visionOfFuture > p {
-  margin-top: 24px;
-  color: rgba(14, 14, 14, 0.7);
-  font-size: 16px;
-}
+
 .visionOfFuture-container {
   margin-top: 32px;
   display: flex;
@@ -208,3 +210,50 @@ nav button {
   margin-top: 4px;
 }
 /* ---------------------- visionOfFuture section end ---------------------- */
+/* ---------------------- recentNews section start ---------------------- */
+.recentNews-container {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.recentNews {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 48px;
+  display: flex;
+  gap: 32px;
+}
+.recentNews > img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.recentNews-content {
+  padding: 8px 0;
+}
+.recentNews-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.recentNews-content p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 12px 0;
+}
+.recentNews-content p > span {
+  margin-left: 12px;
+}
+.recentNews-content button {
+  margin-top: 33px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 13px 26px;
+  border: none;
+}
+/* ---------------------- recentNews section end ---------------------- */
