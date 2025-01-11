@@ -56,6 +56,11 @@ nav button {
   color: rgb(0, 106, 80);
   background: transparent;
   cursor: pointer;
+  transition: all 0.3s;
+}
+nav button:hover {
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
 }
 /* ---------------------- header sections end ---------------------- */
 /* ---------------------- hero section start ---------------------- */
@@ -94,6 +99,11 @@ nav button {
   color: rgb(255, 255, 255);
   border: none;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.hero-left button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 106, 80);
 }
 /* ---------------------- hero section end ---------------------- */
 /* ---------------------- pillars sections start ---------------------- */
@@ -174,6 +184,12 @@ nav button {
   border: none;
   color: rgb(255, 255, 255);
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.visionOfFuture-content button:hover {
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
 }
 .visionOfFuture-card-1 button {
   background: rgb(84, 144, 245);
@@ -257,6 +273,13 @@ nav button {
   background: rgb(0, 106, 80);
   padding: 13px 26px;
   border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.recentNews-content button:hover,
+.donate-form form button:hover,
+.subscribe-content form button:hover {
+  opacity: 80%;
 }
 /* ---------------------- recentNews section end ---------------------- */
 /* ---------------------- donate section start ---------------------- */
@@ -316,6 +339,7 @@ nav button {
   font-size: 18px;
   font-weight: 600;
   border: none;
+  cursor: pointer;
 }
 /* ---------------------- donate section end ---------------------- */
 /* ---------------------- subscribe section start ---------------------- */
@@ -350,6 +374,7 @@ nav button {
   font-size: 18px;
   font-weight: 600;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 /* ---------------------- subscribe section end ---------------------- */
 /* ---------------------- footer section start ---------------------- */
