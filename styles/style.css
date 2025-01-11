@@ -30,7 +30,8 @@ body {
 }
 .visionOfFuture > p,
 .recentNewses > p,
-.donates > p {
+.donates > p,
+.subscribe > p {
   margin-top: 24px;
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
@@ -317,3 +318,71 @@ nav button {
   border: none;
 }
 /* ---------------------- donate section end ---------------------- */
+/* ---------------------- subscribe section start ---------------------- */
+.subscribe-content {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  text-align: center;
+  padding: 80px 100px;
+}
+.subscribe-content > p {
+  width: 622px;
+  margin: 24px auto;
+}
+.subscribe-content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-content form input {
+  padding: 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  width: 600px;
+  font-size: 16px;
+}
+.subscribe-content form button {
+  padding: 17px 34px 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  background: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+/* ---------------------- subscribe section end ---------------------- */
+/* ---------------------- footer section start ---------------------- */
+footer {
+  margin-top: 80px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+.footer-content {
+  background: rgb(255, 255, 255);
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+}
+.footer-content hr {
+  width: 1122px;
+  margin: 0 auto;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.footer-content img {
+  width: 24px;
+  height: 24px;
+}
+/* ---------------------- footer section end ---------------------- */
